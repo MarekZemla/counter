@@ -1,3 +1,4 @@
+
 const div = document.querySelector('div');
 const counter = ()=>{
 let seconds = 1;
