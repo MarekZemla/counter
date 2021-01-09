@@ -1,8 +1,9 @@
+const div = document.querySelector('div');
 const counter = ()=>{
 let seconds = 1;
 
 function time () {
-document.body.textContent = `you are on the site ${seconds}`
+div.textContent = `You are on this site ${seconds} seconds`
 seconds++
 }
 return time
